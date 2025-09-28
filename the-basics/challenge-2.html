@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student registration</title>
+  </head>
+  <body>
+    <h1>Student Registration</h1>
+    <form action="">
+      <label for="name"
+        >Full Name <input id="name" type="text" name="name" placeholder="Name"
+      /></label>
+      <label for="email"
+        >Email
+        <input id="email" type="email" name="email" placeholder="Email" />
+      </label>
+      <label for="age"
+        >Age
+        <input id="age" type="number" name="age" placeholder="Age" />
+      </label>
+      <label for="course"
+        >Course
+
+        <select name="course" id="course">
+          <option value="null">Select Course</option>
+          <option value="cse">CSE</option>
+          <option value="ece">ECE</option>
+          <option value="mech">MECH</option>
+        </select>
+      </label>
+      <label for="terms">
+        <input type="checkbox" name="terms" id="terms" />
+        I agree to the terms and conditions
+      </label>
+      <button type="submit">Register</button>
+    </form>
+  </body>
+</html>
